@@ -39,5 +39,5 @@ export async function playbackService() {
     });
     TrackPlayer.addEventListener(Event.RemoteJumpForward, (data) => {
         TrackPlayer.seekTo(data.interval + TrackPlayer.getPosition());
-    }
+    })
 }

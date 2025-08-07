@@ -9,6 +9,7 @@ import {
   View,
   ActivityIndicator
 } from 'react-native';
+
 import {setupPlayer,addTracks} from '../musicPlayerServices'; 
 
 function App(): JSX.Element {
